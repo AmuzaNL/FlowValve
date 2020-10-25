@@ -1,0 +1,27 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "05:00"
+      timezone: "Europe/Amsterdam"
+    labels:
+      - "github-actions"
+      - "dependencies"
+    open-pull-requests-limit: 5
+    pull-request-branch-name:
+      separator: "-"
+
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "05:00"
+      timezone: "Europe/Amsterdam"
+    labels:
+      - "gradle"
+      - "dependencies"
+    open-pull-requests-limit: 5
+    pull-request-branch-name:
+      separator: "-"
