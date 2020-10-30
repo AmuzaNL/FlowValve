@@ -1,10 +1,12 @@
 package com.amuza.kotlin.flowvalve
 
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.test.runBlockingTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
+@OptIn(ExperimentalCoroutinesApi::class)
 class FlowSwitchTest {
     enum class TestEnum {
         A, B, C, D, E

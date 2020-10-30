@@ -1,3 +1,7 @@
+object DependencyVersions {
+    const val kotlinCoroutinesVersion = "1.4.0"
+}
+
 plugins {
     kotlin("multiplatform") version "1.4.10"
     `maven-publish`
@@ -37,7 +41,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${DependencyVersions.kotlinCoroutinesVersion}")
             }
         }
         val commonTest by getting {
@@ -50,7 +54,7 @@ kotlin {
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.9")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:${DependencyVersions.kotlinCoroutinesVersion}")
             }
         }
         val jsMain by getting

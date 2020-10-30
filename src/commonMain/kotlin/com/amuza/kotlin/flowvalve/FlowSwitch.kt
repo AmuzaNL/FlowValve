@@ -1,11 +1,9 @@
 package com.amuza.kotlin.flowvalve
 
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class FlowSwitch<T, E : Enum<E>>(
     values: () -> Array<E>,
     private val defaultValue: T,
