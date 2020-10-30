@@ -4,14 +4,14 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*
 
-class FlowSwitch<T, E : Enum<E>>(
+public class FlowSwitch<T, E : Enum<E>>(
     values: () -> Array<E>,
     private val defaultValue: T,
     private val coroutineScope: CoroutineScope
 ) {
     private var subscribersCount = 0
     private val _outFlow = MutableStateFlow(defaultValue)
-    val outFlow: Flow<T> = _outFlow
+    public val outFlow: Flow<T> = _outFlow
         .onStart {
             subscribersCount++
 
@@ -31,7 +31,7 @@ class FlowSwitch<T, E : Enum<E>>(
     private var runningJob: Job? = null
     private var selectedInput: E? = null
 
-    fun selectInput(input: E) {
+    public fun selectInput(input: E) {
         selectedInput = input
 
         cancelCollectionFromInputFlow()
@@ -56,7 +56,7 @@ class FlowSwitch<T, E : Enum<E>>(
         runningJob?.cancel()
     }
 
-    fun addInput(input: E, flowInput: Flow<T>) {
+    public fun addInput(input: E, flowInput: Flow<T>) {
         switchMap[input] = flowInput
     }
 }

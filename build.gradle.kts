@@ -66,6 +66,8 @@ kotlin {
         val nativeMain by getting
         val nativeTest by getting
     }
+
+    explicitApi()
 }
 
 val artifactName = "flow-valve"
