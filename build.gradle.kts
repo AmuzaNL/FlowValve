@@ -8,7 +8,7 @@ plugins {
     id("com.jfrog.bintray") version "1.8.5"
 }
 group = "com.amuza.kotlin"
-version = "1.0.1-SNAPSHOT"
+version = "1.0.2-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -70,6 +70,11 @@ kotlin {
     explicitApi()
 }
 
+val sourcesJar by tasks.creating(Jar::class) {
+    archiveClassifier.set("sources")
+    from(kotlin.sourceSets.getByName("commonMain").kotlin.sourceDirectories)
+}
+
 val artifactName = "flow-valve"
 val artifactGroup = project.group.toString()
 val artifactVersion = project.version.toString()
@@ -95,7 +100,9 @@ publishing {
             groupId = artifactGroup
             artifactId = artifactName
             version = artifactVersion
+
             artifact("$buildDir/libs/${project.name}-jvm-${project.version}.jar")
+            artifact(sourcesJar)
 
             pom.withXml {
                 asNode().apply {
@@ -147,4 +154,9 @@ bintray {
             vcsTag = artifactVersion
         }
     }
+}
+
+tasks.named("bintrayUpload") {
+    dependsOn(sourcesJar)
+    dependsOn(tasks.named("jvmJar"))
 }
