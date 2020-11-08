@@ -1,10 +1,10 @@
-name: FlowValve Native Linux
+name: FlowValve Native Windows
 on:
   push:
 
 jobs:
-  native-linux:
-    runs-on: ubuntu-latest
+  native-windows:
+    runs-on: windows-latest
     steps:
       - id: setup-java
         name: Set up JDK 1.8

@@ -1,10 +1,10 @@
-name: FlowValve Native Linux
+name: FlowValve Native Mac OS
 on:
   push:
 
 jobs:
-  native-linux:
-    runs-on: ubuntu-latest
+  native-macos:
+    runs-on: macos-latest
     steps:
       - id: setup-java
         name: Set up JDK 1.8
