@@ -8,7 +8,7 @@ plugins {
     id("com.jfrog.bintray") version "1.8.5"
 }
 group = "com.amuza.kotlin"
-version = "1.0.2-SNAPSHOT"
+version = "1.0.3-SNAPSHOT"
 
 repositories {
     mavenCentral()
