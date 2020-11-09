@@ -1,5 +1,5 @@
 object DependencyVersions {
-    const val kotlinCoroutinesVersion = "1.4.0"
+    const val kotlinCoroutinesVersion = "1.4.1"
 }
 
 plugins {
