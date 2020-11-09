@@ -1,5 +1,9 @@
 # FlowValve
 
+To include this library in your project
+
+`implementation 'com.amuza.kotlin:flow-valve:1.0.1'`
+
 ## FlowSwitch
 
 FlowSwitch is class that allow you to choose between different Kotlin Flows.
