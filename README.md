@@ -5,7 +5,7 @@
 
 To include this library in your project
 
-`implementation 'com.amuza.kotlin:flow-valve:1.0.1'`
+`implementation 'com.amuza.kotlin:flow-valve:1.0.2'`
 
 ## FlowSwitch
 
