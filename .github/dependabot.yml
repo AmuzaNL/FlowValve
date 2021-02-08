@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
       time: "05:00"
       timezone: "Europe/Amsterdam"
     labels:
@@ -12,11 +12,13 @@ updates:
     open-pull-requests-limit: 5
     pull-request-branch-name:
       separator: "-"
+    assignees:
+      - "peterfortuin"
 
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
       time: "05:00"
       timezone: "Europe/Amsterdam"
     labels:
@@ -25,3 +27,5 @@ updates:
     open-pull-requests-limit: 5
     pull-request-branch-name:
       separator: "-"
+    assignees:
+      - "peterfortuin"
