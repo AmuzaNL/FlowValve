@@ -3,7 +3,7 @@ object DependencyVersions {
 }
 
 plugins {
-    kotlin("multiplatform") version "1.4.30"
+    kotlin("multiplatform") version "1.4.31"
     `maven-publish`
     id("com.jfrog.bintray") version "1.8.5"
 }
