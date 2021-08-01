@@ -3,7 +3,7 @@ object DependencyVersions {
 }
 
 plugins {
-    kotlin("multiplatform") version "1.4.31"
+    kotlin("multiplatform") version "1.5.21"
     `maven-publish`
 }
 
