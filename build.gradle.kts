@@ -4,11 +4,11 @@ object DependencyVersions {
 
 plugins {
     kotlin("multiplatform") version "1.5.21"
-    `maven-publish`
+    id("convention.publication")
 }
 
-group = "com.amuza.kotlin"
-version = "1.0.3-SNAPSHOT"
+group = "io.github.amuzanl.kotlin"
+version = "1.0.3"
 
 repositories {
     mavenCentral()
