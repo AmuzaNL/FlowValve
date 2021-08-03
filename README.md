@@ -1,11 +1,11 @@
 # FlowValve
 
-[ ![Download](https://api.bintray.com/packages/amuza/kotlin/flow-valve/images/download.svg?version=1.0.2) ](https://bintray.com/amuza/kotlin/flow-valve/1.0.2/link)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.amuzanl.kotlin/FlowValve/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.amuzanl.kotlin/FlowValve)
 ![FlowValve JVM](https://github.com/AmuzaNL/FlowValve/workflows/FlowValve%20JVM/badge.svg)
 
 To include this library in your project
 
-`implementation 'com.amuza.kotlin:flow-valve:1.0.2'`
+`implementation 'io.github.amuzanl.kotlin:FlowValve:<version>'`
 
 ## FlowSwitch
 
