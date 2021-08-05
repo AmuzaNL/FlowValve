@@ -1,7 +1,11 @@
 # FlowValve
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.amuzanl.kotlin/FlowValve/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.amuzanl.kotlin/FlowValve)
-![FlowValve JVM](https://github.com/AmuzaNL/FlowValve/workflows/FlowValve%20JVM/badge.svg)
+[![FlowValve JVM](https://github.com/AmuzaNL/FlowValve/actions/workflows/jvm.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/jvm.yml)[![FlowValve JS](https://github.com/AmuzaNL/FlowValve/actions/workflows/js.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/js.yml)
+[![FlowValve Native Linux](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-linux.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-linux.yml)
+[![FlowValve Native Mac OS](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-macos.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-macos.yml)
+[![FlowValve Native Windows](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-windows.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-windows.yml)
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.amuzanl.kotlin/FlowValve.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.amuzanl.kotlin%22%20AND%20a:%22FlowValve%22)
 
 To include this library in your project
 
