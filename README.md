@@ -1,6 +1,7 @@
 # FlowValve
 
-[![FlowValve JVM](https://github.com/AmuzaNL/FlowValve/actions/workflows/jvm.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/jvm.yml)[![FlowValve JS](https://github.com/AmuzaNL/FlowValve/actions/workflows/js.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/js.yml)
+[![FlowValve JVM](https://github.com/AmuzaNL/FlowValve/actions/workflows/jvm.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/jvm.yml)
+[![FlowValve JS](https://github.com/AmuzaNL/FlowValve/actions/workflows/js.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/js.yml)
 [![FlowValve Native Linux](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-linux.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-linux.yml)
 [![FlowValve Native Mac OS](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-macos.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-macos.yml)
 [![FlowValve Native Windows](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-windows.yml/badge.svg)](https://github.com/AmuzaNL/FlowValve/actions/workflows/native-windows.yml)
