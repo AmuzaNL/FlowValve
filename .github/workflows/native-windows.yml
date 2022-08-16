@@ -44,7 +44,7 @@ jobs:
         run: ./gradlew nativeTest
 
       - id: junit-test-result-artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: JUnit test results
           path: build/reports/tests/
