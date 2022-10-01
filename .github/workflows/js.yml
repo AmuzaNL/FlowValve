@@ -19,7 +19,7 @@ jobs:
 
       - id: gradle-wrapper
         name: Gradle Wrapper
-        uses: actions/cache@v3.0.5
+        uses: actions/cache@v3.0.9
         with:
           path: |
             ~/.gradle/wrapper
@@ -27,7 +27,7 @@ jobs:
 
       - id: gradle-caches
         name: Gradle Caches
-        uses: actions/cache@v3.0.5
+        uses: actions/cache@v3.0.9
         with:
           path: |
             ~/.gradle/caches
