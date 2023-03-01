@@ -3,7 +3,7 @@ object DependencyVersions {
 }
 
 plugins {
-    kotlin("multiplatform") version "1.5.31"
+    kotlin("multiplatform") version "1.8.10"
     id("convention.publication")
 }
 
